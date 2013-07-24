@@ -1,0 +1,88 @@
+/*
+	Global
+*/
+
+.page {
+	margin:0 auto;
+	width:80%;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/*
+	Responsive menu
+*/
+
+.responsive-menu {
+	background:#000;
+	text-align:center;
+}
+
+.responsive-menu .trigger,
+.responsive-menu h2 {
+	display:none;
+}
+
+.responsive-menu ul { 
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+.responsive-menu ul li {
+	display:inline;
+}
+
+.responsive-menu ul li a { 
+	display: inline-block;
+	padding:10px;
+	color:#fff;
+	text-decoration:none;
+
+}
+
+.responsive-menu ul li a:hover { 
+	background-color:#cc0;
+}
+
+@media only screen and (max-width : 568px) {
+	
+	.responsive-menu {
+		text-align:left;
+	}	
+		
+	.responsive-menu .trigger {
+		display:block;
+		cursor:pointer;
+		color:#fff;
+		padding:10px;
+		font-size:0.98em;
+		font-weight:bold;
+		background:green url('../images/responsive-menu-icon.png') 97% 50% no-repeat; 
+	}
+
+	.responsive-menu.open .trigger {
+		background-color:#f20;
+	}
+	
+	.responsive-menu ul li a,
+	.responsive-menu ul li {
+		display:block;
+	}
+
+	.responsive-menu ul {
+		display:none;
+	}	
+}

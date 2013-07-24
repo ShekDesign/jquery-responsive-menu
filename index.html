@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Responsive Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/responsive-menu.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.responsiveMenu.js"></script>
+</head>
+<body>
+
+	<header>
+	
+		<nav id="responsive-menu" class="responsive-menu clearfix">
+			<h2>Responsive Menu</h2>
+			<ul>
+				<li><a href="#">Wordpress</a></li>
+				<li><a href="#">Zend Framework</a></li>
+				<li><a href="#">Php</a></li>
+				<li><a href="#">Java</a></li>
+				<li><a href="#">Android</a></li>	
+			</ul>
+		</nav>
+	
+	</header>
+	
+	<section class="page">
+		<article>
+			<header>
+				<h1>Responsive Menu</h1>
+			</header>
+			
+			<p>Redimensionnez la fenêtre de votre navigateur en dessous de 568 pixels.</p>	
+			
+		</article>
+	</section>
+	
+	<script>
+		jQuery(document).ready(function ($) {
+			$('#responsive-menu').responsiveMenu( { title : $(this).find('h2').text() } );
+		});
+	</script>
+
+</body>
+</html>

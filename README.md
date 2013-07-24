@@ -71,39 +71,36 @@ Détail des options :</p>
 
 <table>
 <thead>
-<tr>
-<th>Clef</th>
-<th>Description</th>
-</tr>
+<tr><th>Clef</th><th>Description</th></tr>
 </thead>
 <tbody>
 <tr>
-<td> slide</td>
-<td>Element qui est «slidé».<br /> Peut être une balise html, une classe css ou un id.<br /> <strong>Type: String, valeur par défaut: ul</strong></td>
+<td> slide</td>
+<td>Element qui est «slidé»<br /> Peut être une balise html, une classe css ou un id<br /> <strong>Type: String, valeur par défaut: ul</strong></td>
 </tr>
 <tr>
-<td> action</td>
-<td>Evénement déclencheur.<br /> Pour que tap fonctionne il faut le plugin jQuery Tap.<br /> <strong>Type: String, <strong>valeur par défaut</strong>: tap, click</strong></td>
+<td> action</td>
+<td>Evénement déclencheur<br /> Pour que tap fonctionne il faut le plugin jQuery Tap<br /> <strong>Type: String, <strong>valeur par défaut</strong>: tap, click</strong></td>
 </tr>
 <tr>
 <td>nomadDeviceScreenWidth</td>
-<td>Largeur en pixels de l&rsquo;écran à partir de laquelle le menu change d&rsquo;apparence.<br /> Doit correspondre à la valeur fixée dans la Media Query.<br /> <strong>Type: Number , <strong>valeur par défaut</strong>: 568</strong></td>
+<td>Largeur en pixels de l'écran à partir de laquelle le menu change d'apparence<br /> Doit correspondre à la valeur fixée dans la Media Query<br /> <strong>Type: Number , <strong>valeur par défaut</strong>: 568</strong></td>
 </tr>
 <tr>
-<td> duration</td>
-<td>Vitesse du slide<br /> <strong>Type: Number ou String, <strong>valeur par défaut:</strong>400</strong><br /> On peut utiliser les 3 chaines de caractères représentant une des trois vitesses prédéfinies dans jQuery &laquo;&nbsp;slow&nbsp;&raquo;,&nbsp;&raquo;normal&nbsp;&raquo;, ou &laquo;&nbsp;fast&nbsp;&raquo;</td>
+<td> duration</td>
+<td>Vitesse du slide<br /> <strong>Type: Number ou String, <strong>valeur par défaut: </strong>400</strong><br /> On peut utiliser les 3 chaines de caractères représentant une des trois vitesses prédéfinies dans jQuery "slow","normal", ou "fast"</td>
 </tr>
 <tr>
-<td> triggerClassName</td>
-<td>Classe css s&rsquo;appliquant au trigger<br /> <strong>Type: String, <strong>valeur par défaut:</strong> trigger</strong></td>
+<td> triggerClassName</td>
+<td>Classe css s'appliquant au trigger<br /> <strong>Type: String, <strong>valeur par défaut:</strong> trigger</strong></td>
 </tr>
 <tr>
 <td>openClassName</td>
-<td>Classe css s&rsquo;appliquant au container du menu lorsqu&rsquo;il est déplié<br /> <strong>Type: String, <strong>valeur par défaut:</strong>open</strong></td>
+<td>Classe css s'appliquant au container du menu lorsqu'il est déplié<br /> <strong>Type: String, <strong>valeur par défaut:</strong>open</strong></td>
 </tr>
 <tr>
-<td> title</td>
-<td>Le titre du menu<br /> <strong>Type: String, <strong>valeur par défaut:</strong> &amp;nbsp;</strong></td>
+<td> title</td>
+<td>Le titre du menu<br /> <strong>Type: String, <strong>valeur par défaut:</strong> &amp;nbsp;</strong></td>
 </tr>
 </tbody>
 </table>

@@ -96,7 +96,7 @@ Détail des options :</p>
 </tr>
 <tr>
 <td>openClassName</td>
-<td>Classe css s'appliquant au container du menu lorsqu'il est déplié<br /> <strong>Type: String, <strong>valeur par défaut:</strong>open</strong></td>
+<td>Classe css s'appliquant au container du menu lorsqu'il est déplié<br /> <strong>Type: String, <strong>valeur par défaut: </strong>open</strong></td>
 </tr>
 <tr>
 <td> title</td>
